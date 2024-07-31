@@ -41,7 +41,7 @@ void vTask1(void * pvParameters){
 int main(void) {
   hwInit();
 
-  xTaskCreate(vTask1, "vTask1", configMINIMAL_STACK_SIZE,NULL, 1, NULL);
+  xTaskCreate(vTask1, "vTask1", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
 
   vTaskStartScheduler();
 

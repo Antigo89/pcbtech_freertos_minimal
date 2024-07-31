@@ -45,7 +45,7 @@
       target_reset_script="Reset();" />
     <configuration
       Name="Debug"
-      arm_target_interface_type="JTAG"
+      arm_target_interface_type="SWD"
       c_user_include_directories=".;$(ProjectDir)/FreeRTOS;$(ProjectDir)/FreeRTOS/Kernel/include;$(ProjectDir)/FreeRTOS/Kernel/portable/GCC/ARM_CM4F"
       debug_target_connection="J-Link" />
     <folder Name="CMSIS Files">
